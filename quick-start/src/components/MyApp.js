@@ -4,6 +4,8 @@ import AboutPage from "./addingStyles/AboutPage";
 import Profile from "./display_data/Profile";
 import MyButton from "./MyButton";
 import Conditional from "./conditional_rendering/Conditional";
+import ShoppingList from "./rendering_lists/ShoppingList";
+import Button from "./responding_events/Button";
 
 const MyApp = () => {
     return (
@@ -17,6 +19,11 @@ const MyApp = () => {
             <Profile />
             <h1 className="titulo">Renderização condicional</h1>
             <Conditional/>
+            <h1 className="titulo">Renderizando listas</h1>
+            <ShoppingList/>
+            <h1 className="titulo">Respondendo eventos</h1>
+            <Button/>
+
         </div>
     )
 }
